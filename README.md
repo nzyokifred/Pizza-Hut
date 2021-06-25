@@ -16,8 +16,8 @@ To access this project on your local files, you can clone it using these steps
 1. This will clone the repositoty into your local folder
 1. __Enjoy 😃😃
 # BDD
-# User Stories
-## As as customer, one will be able to do the following,
+## User Stories 
+### As as customer, one will be able to do the following,
 
 - Choose the size of pizza I want e.g Small, Medium, Large
 - Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
