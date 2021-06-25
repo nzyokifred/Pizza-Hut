@@ -1,0 +1,14 @@
+*{
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lobster Two', cursive;
+}
+.container{
+  display: flex;
+  height: 600px;
+}
+.container img{
+  width: auto;
+  height: 100%;
+}
