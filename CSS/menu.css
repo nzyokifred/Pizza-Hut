@@ -86,3 +86,6 @@ body{
   border-radius: 5px;
   width: 180px;
 }
+.details>button:hover{
+  background-color:red;
+}
