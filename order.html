@@ -81,23 +81,43 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="Toppings">Select your desired toppinggs each @ ksh 80</label>
-      </div>  
-        <div class="custom-control custom-checkbox custom-control-inline">
-          <input type="checkbox" class="custom-control-input" name="toppings" id="Ham" value="Ham">
-          <label class="custom-control-label" for="Ham">Ham</label>
-        </div>
-        <div class="custom-control custom-checkbox custom-control-inline">
-          <input type="checkbox" class="custom-control-input" name="toppings" id="Onions" value="Onions">
-          <label class="custom-control-label" for="Onions">Onions</label>
-        </div>
-        <div class="custom-control custom-checkbox custom-control-inline">
-          <input type="checkbox" class="custom-control-input" name="toppings" id="Pepper" value="Pepper">
-          <label class="custom-control-label" for="Pepper">Pepper</label>
-        </div>
-        <div class="btn btn-primary">
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </div>
+        <label for="Toppings"
+          >Select your desired toppinggs each @ ksh 80</label
+        >
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          name="toppings"
+          id="Ham"
+          value="Ham"
+        />
+        <label class="custom-control-label" for="Ham">Ham</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          name="toppings"
+          id="Onions"
+          value="Onions"
+        />
+        <label class="custom-control-label" for="Onions">Onions</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          name="toppings"
+          id="Pepper"
+          value="Pepper"
+        />
+        <label class="custom-control-label" for="Pepper">Pepper</label>
+      </div>
+      <div class="btn btn-primary">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
     </form>
     <div class="col-sm-7">
       <div id="info">
@@ -109,7 +129,7 @@
       <div class="details">
         <h2>Your Order is:</h2>
         <div id="orders">
-          <table class="table table-sm  pizzatable">
+          <table class="table table-sm pizzatable">
             <thead>
               <tr>
                 <th scope="col">Pizza Name</th>
@@ -126,31 +146,53 @@
                 <td id="crust"></td>
                 <td id="topping"></td>
                 <td id="totals"></td>
-              </tr>                  
+              </tr>
             </tbody>
           </table>
           <p id="total"></p>
-          <p id="bill"></p> 
+          <p id="bill"></p>
           <p id="tprice">Delivery fee is 100</p>
           <p id="message"></p>
         </div>
-        <button class="btn btn-blue otherPizza">Want another pizza? Add here</button>
+        <button class="btn btn-blue otherPizza">
+          Want another pizza? Add here
+        </button>
         <button class="btn btn-blue" id="checkout">Checkout</button>
         <button class="btn btn-blue delivers">Home delivery?</button>
       </div>
       <div class="delivery">
-          <form action="">
-            <div class="form-group">
-              <input type="text" id="yourname" class="form-control mb-3" placeholder="Your Name">
-              <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
-              <input type="text" id="whereto" class="form-control mb-3" placeholder="Delivery Location">
-              <button class="btn btn-orange" id="finaleorder">Place Your Order</button>
-            </div>
-          </form>
+        <form action="">
+          <div class="form-group">
+            <input
+              type="text"
+              id="yourname"
+              class="form-control mb-3"
+              placeholder="Your Name"
+            />
+            <input
+              type="number"
+              id="phone"
+              class="form-control mb-3"
+              placeholder="Pnone Number"
+            />
+            <input
+              type="text"
+              id="whereto"
+              class="form-control mb-3"
+              placeholder="Delivery Location"
+            />
+            <button class="btn btn-orange" id="finaleorder">
+              Place Your Order
+            </button>
+          </div>
+        </form>
       </div>
     </div>
-</div>
-</div>
-</div>  
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/order.js"></script>
   </body>
 </html>
