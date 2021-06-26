@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/bootstrap-4.6.0-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="CSS/about.css" />
+    <link rel="stylesheet" href="CSS/order.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,5 +48,109 @@
         </div>
       </div>
     </nav>
+    <form>
+      <div class="form-group">
+        <label for="flavour">Choose your flavour</label>
+        <select class="form-control form-control-sm" id="flavour">
+          <option>Select your preffered flavour</option>
+          <option>Chicken Periperi</option>
+          <option>Hawaiian</option>
+          <option>Barbaqueue</option>
+          <option>Vegetarian</option>
+          <option>Cheese</option>
+          <option>Chicken Margerittah</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="size">Choose the size</label>
+        <select class="form-control form-control-sm" id="size">
+          <option>Select your preffered size</option>
+          <option>Small ksh 900</option>
+          <option>Medium ksh 1100</option>
+          <option>Large ksh 1300</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="crust">Choose the crust</label>
+        <select class="form-control form-control-sm" id="crust">
+          <option>Select your preferred crust</option>
+          <option>Crispy : ksh 300</option>
+          <option>Spicy : ksh 250</option>
+          <option>Vegan : ksh 200</option>
+          <option>Crunchy : ksh 350</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Toppings">Select your desired toppinggs each @ ksh 80</label>
+      </div>  
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" name="toppings" id="Ham" value="Ham">
+          <label class="custom-control-label" for="Ham">Ham</label>
+        </div>
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" name="toppings" id="Onions" value="Onions">
+          <label class="custom-control-label" for="Onions">Onions</label>
+        </div>
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" name="toppings" id="Pepper" value="Pepper">
+          <label class="custom-control-label" for="Pepper">Pepper</label>
+        </div>
+        <div class="btn btn-primary">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+    <div class="col-sm-7">
+      <div id="info">
+        <p>Your order will be processed and delivered within 45 minutes.</p>
+        <p>Have exact cash ready to pay your rider.</p>
+        <p>Reach out to us in case of any changes</p>
+        <p id="final">Your Pizza</p>
+      </div>
+      <div class="details">
+        <h2>Your Order is:</h2>
+        <div id="orders">
+          <table class="table table-sm  pizzatable">
+            <thead>
+              <tr>
+                <th scope="col">Pizza Name</th>
+                <th scope="col">Size</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Topping</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody id="ordersmade">
+              <tr>
+                <td id="ppname"></td>
+                <td id="ppsize"></td>
+                <td id="crust"></td>
+                <td id="topping"></td>
+                <td id="totals"></td>
+              </tr>                  
+            </tbody>
+          </table>
+          <p id="total"></p>
+          <p id="bill"></p> 
+          <p id="tprice">Delivery fee is 100</p>
+          <p id="message"></p>
+        </div>
+        <button class="btn btn-blue otherPizza">Want another pizza? Add here</button>
+        <button class="btn btn-blue" id="checkout">Checkout</button>
+        <button class="btn btn-blue delivers">Home delivery?</button>
+      </div>
+      <div class="delivery">
+          <form action="">
+            <div class="form-group">
+              <input type="text" id="yourname" class="form-control mb-3" placeholder="Your Name">
+              <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+              <input type="text" id="whereto" class="form-control mb-3" placeholder="Delivery Location">
+              <button class="btn btn-orange" id="finaleorder">Place Your Order</button>
+            </div>
+          </form>
+      </div>
+    </div>
+</div>
+</div>
+</div>  
   </body>
 </html>

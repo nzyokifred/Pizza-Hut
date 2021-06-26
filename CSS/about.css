@@ -6,7 +6,8 @@
 body{
   background-image: url(../IMAGES/background.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  
 }
 .nav-item{
   font-size: 30px;
