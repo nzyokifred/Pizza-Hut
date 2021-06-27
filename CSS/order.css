@@ -10,16 +10,17 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-form{
-  width: 700px;
-  height: 400px;
-  background-color: fuchsia;
-  border-radius: 15px;
-  margin-left: 2em;
+.form-group{
+ width: 600px;
+  background-color: violet;
 }
 .col-sm-7{
   background-color: gold;
   margin: 0px 48em;
   margin-top: -25em;
   width: 700px;
+}
+.form-all{
+  background-color: white;
+  
 }
