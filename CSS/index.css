@@ -11,14 +11,14 @@ h1{
 }
 .carosuel-caption, h2{
   font-family: 'Lobster Two', cursive ;
-  color:royalblue;
+  color:rgb(5, 0, 0);
   font-weight: 500;
   font-size: 120px;
 }
 
 .carousel-item .container .carousel-caption p{
   font-family: 'Lobster Two', cursive ;
-  color: #020238f1;
+  color: #00000ff1;
   font-size: 50px;
 
 }

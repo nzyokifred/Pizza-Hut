@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/bootstrap-4.6.0-dist/css/bootstrap.css" />
     <link rel="stylesheet" href="CSS/order.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,50 +49,47 @@
       </div>
     </nav>
     <div class="form-all">
-      <form>
-        <div class="form-group">
-          <label for="select">Choose your flavour</label>
-          <select class="browser-default custom-select custom-select-md md-3 name">
-            <option selected value="0">Select your preffered flavour</option>
-            <option value="Chicken Periperi">Chicken Periperi</option>
-            <option value="Hawaiian">Hawaiian</option>
-            <option value="Barbaqueue">Barbaqueue</option>
-            <option value="Vegetarian">Vegetarian</option>
-            <option value="Cheese">Cheese</option>
-            <option value="Chicken Margerittah">Chicken Margerittah</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="select">Choose the size</label>
-          <select class="browser-default custom-select custom-select-md md-3 " id="size">
-            <option selected value="0">Select your preffered size</option>
-            <option value="Small">Small ksh 900</option>
-            <option value="Medium">Medium ksh 1100</option>
-            <option value="Large">Large ksh 1300</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="crust">Choose the crust</label>
-          <select class="browser-default custom-select custom-select-md md-3 " id="crust">
-            <option selected value="0">Select your preferred crust</option>
-            <option value="Crispy">Crispy : ksh 300</option>
-            <option value="Spicy">Spicy : ksh 250</option>
-            <option value="Vegan">Vegan : ksh 200</option>
-            <option value="Crunchy">Crunchy : ksh 350</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="Toppings"
-            >Select your desired toppinggs each @ ksh 80</label
-          >
-        </div>
+      <form class="form1">
+        <label for="select">Choose the flavor</label>
+        <select
+          class="browser-default custom-select custom-select-md mb-3 name"
+        >
+          <option value="Chicken Periperi">Chicken Periperi</option>
+          <option value="Hawaiian">Hawaiian</option>
+          <option value="Barbaqueu">Barbaqueu</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Cheese">Cheese</option>
+          <option value="Chicken Margerittah">Chicken Margerittah</option>
+        </select>
+        <label for="select">Choose the size</label>
+        <select
+          class="browser-default custom-select custom-select-md mb-3"
+          id="sizes"
+        >
+          <option selected value="0">Select size here</option>
+          <option value="large">Large -- sh. 1500</option>
+          <option value="medium">Medium -- sh. 1000</option>
+          <option value="small">Small -- sh. 700</option>
+        </select>
+        <label for="ppcrust">Choose the Crust!</label>
+        <select
+          class="browser-default custom-select custom-select-md mb-3"
+          id="ppcrust"
+        >
+          <option selected value="0">Select your preferred crust!</option>
+          <option value="Crispy">Crispy -- ksh. 300</option>
+          <option value="Crunchy">Crunchy -- ksh. 200</option>
+          <option value="Vegan">Vegan-- ksh. 250</option>
+        </select>
+        <label for="Toppings">Select Your Toppings each at ksh. 100</label
+        ><br />
         <div class="custom-control custom-checkbox custom-control-inline">
           <input
             type="checkbox"
             class="custom-control-input"
-            name="toppings"
             id="Ham"
             value="Ham"
+            name="toppings"
           />
           <label class="custom-control-label" for="Ham">Ham</label>
         </div>
@@ -100,9 +97,9 @@
           <input
             type="checkbox"
             class="custom-control-input"
-            name="toppings"
             id="Onions"
             value="Onions"
+            name="toppings"
           />
           <label class="custom-control-label" for="Onions">Onions</label>
         </div>
@@ -110,15 +107,15 @@
           <input
             type="checkbox"
             class="custom-control-input"
+            id="Tomatoes"
+            value="Tomatoes"
             name="toppings"
-            id="Pepper"
-            value="Pepper"
           />
-          <label class="custom-control-label" for="Pepper">Pepper</label>
+          <label class="custom-control-label" for="Tomatoes">Tomatoes</label>
         </div>
-        <div class="btn btn-primary">
-          <button class="btn btn-blue proceed" type="submit">Submit</button>
-        </div>
+        <br />
+        <br />
+        <button type="submit" class="btn btn-blue proceed">Order</button>
       </form>
       <div class="col-sm-7">
         <div id="info">

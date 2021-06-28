@@ -6,34 +6,76 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
-  background-color: rgb(57, 44, 238);
+  background-image: url("../IMAGES/background1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#mc_embed_signup{
-    background-color: #ffff;
-    width: 600px;
-    align-items: center;
-    justify-content: center;
-    margin: 6em 30em; 
-    box-shadow: 3px 8px 8px -1px #aaaaaaaa;
-    border-radius: 70px;
-    
-   }
-#mce-MMERGE1{
-  height: 100px;
-  margin-left: 1em;
+.contact{
+  background-image: url(../IMAGE/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
 }
-#mce-MMERGE6{
-  margin-left: 1em;
+.contact h2{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+input[type=text],input[type=email],#mce-MMERGE6{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+.form-control::-webkit-input-placeholder{
+  color: black;
+  font-weight: 900;
+}
+#mce-FNAME{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
 }
 #mce-EMAIL{
-  margin-left: 1em;
+  width: 30%;
 }
-.clear{
-  margin-left: 16em;
+#mce-MMERGE6{
+  margin-left: 20%;
+  width: 60%;
 }
-#mc_embed_signup_scroll h2{
-  text-align: center;
+#mc-embedded-subscribe{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
-#mc-field-group{
-  margin-left: 3em;
+
+@media only screen and (max-width: 425px){
+  #mc-embedded-subscribe{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  #mce-FNAME{
+    width: 84%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+  }
+  #mce-EMAIL{
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+  }
+  #mce-MMERGE6{
+    margin-left: 4%;
+    width: 84%;
+  }
+}
+@media only screen and (max-width: 755px){
+  button{
+    margin-left: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
 }
