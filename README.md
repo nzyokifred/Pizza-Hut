@@ -2,7 +2,7 @@
  - Pizza-Hut,🍕
 # Project Description
  - A web application where customers order different sizes of pizzas with one or more toppings and then check out and receive their total billing.
- - https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1596888.jpg&fm=jpg
+-  ![picture](https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 # Author(s) information
  - Brian Karu.
 # Prerequisities
